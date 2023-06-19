@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanjesh Sorat</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+    <body>
+        <main id="main">
+            <h2>سنجش سرعت تایپینگ</h2>
+            <button id="button">شروع تست</button>
+            <div id="test" class="remove">
+                <div id="top">
+                    <div class="topnav">
+                        <span>کلمه بر دقیقه : </span>
+                        <span id="wpm">0</span>
+                    </div>
+                    <div class="topnav">
+                        <span>کلمات صحیح : </span>
+                        <span id="score">0</span>
+                    </div>
+                    <div class="topnav">
+                        <span>زمان باقی مانده : </span>
+                        <span id="timeleft">1:00</span>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div id="inputsec">
+                    <div id="word"></div>
+                    <input type="text" id="input" autocomplete="off">
+                </div>
+                <div id="text"></div>
+            </div>
+            <div id="testended" class="remove">
+                <h2 id="h2">تست تمام شد</h2>
+                
+                <button id="testendedbtn">شروع دوباره</button>
+            </div>
+            <div id="result" class="remove">
+                <button id="close">X</button>
+                <header>نتیجه تست</header>
+                    <span  id="allwords"></span>
+                    <span  id="acc"></span>
+                    <span  id="wpm1"></span>     
+                </div>
+        </main>
+        
+        
+        <script src="Js.js"></script>
+    </body>
+</html>

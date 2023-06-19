@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: b nazanin;
+    font-size: 20px;
+    direction: rtl;
+}
+body{background-color: rgb(101, 98, 255)}
+#main {
+    margin: 50px auto;
+    width:  700px;
+    background-color: white;
+    padding: 1em;
+    border-radius: 0.5em;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+    text-align: center;
+    position: relative;
+}
+#top {
+  
+    margin: 2em 0;
+}
+.topnav{
+    font-size: 18px;
+    width: 150px;
+    background-color: rgb(157, 255, 154);
+    border-radius: 10px;
+    float: right;
+    margin: 10px auto;
+    margin: 20px;
+}
+.topnav:first-child{
+    margin-right: 60px;
+}
+.clear{
+    clear: both;
+}
+#word{
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+#inputsec input {
+    width: 90%;
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    outline: none;
+}
+#text { margin-top: 2rem; }
+
+button {
+    margin-top: 40px;
+    font-size: 20px;
+    padding: 5px 10px;
+    background-color: rgb(101, 98, 255);
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+button:hover { background-color:rgb(10, 0, 156); }
+.remove { display: none; }
+
+#gameended { margin-top: 20px; }
+
+.correct { color: green !important;}
+.incorrect { color: red !important;}
+
+#text span {
+    padding: 5px 10px;
+    color: white;
+    margin-top: 5px;
+    display: inline-block;
+}
+#result{
+    width: 450px; 
+    height: 257px;
+    border: 1px solid rgb(0, 68, 255);
+    position: fixed;
+    top: 34%;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 0 2px #aaa;
+}
+header{
+    padding: 5px;
+    border-bottom: 2px solid rgb(0, 68, 255);
+    background-color: rgb(164, 131, 255);
+    font-weight: bold;
+    font-size: 22px;
+    user-select: none;
+    text-align: center;
+}
+#result span{
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    display: block;
+    padding: 20px;
+}
+#result button{
+    width: 25px;
+    height: 25px;
+    font-size: 12px;
+    position: absolute;
+    right: 2%;
+    top: 5%;
+    color: #fff;
+    background-color: rgb(139, 139, 255);
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.5s; 
+    text-align: center;
+    margin-top: 0;
+
+}
+#result button:hover{
+    background-color: white;
+    color: rgb(139, 139, 255);
+}
+#result .footnav span{
+display: block;
+    width: 80px;
+    padding: 5px;
+}
